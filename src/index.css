@@ -1,0 +1,55 @@
+body{
+  background-color: crimson;
+  font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.App{
+  background-color: rgb(2, 2, 90);
+  margin: 20px auto;
+  width: 60%;
+  padding: 20px 20px 50px;
+  border-radius: 20px;
+}
+img{
+  max-width: 250px;
+  height: 250px;
+  border-radius: 60px;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  margin: 20px ;
+  text-align: center;
+}
+input{
+  outline-color: transparent;
+  display: block;
+  width: 100%;
+}
+.picker{
+  cursor: pointer;
+}
+.react-datepicker__input-container,
+.react-datepicker-wrapper{
+  display: block;
+  margin-top: 15px;
+}
+.react-datepicker__input-container:focus,
+.react-datepicker-wrapper:focus{
+  border-color: transparent;
+}
+button{
+  margin-top: 20px;
+}
+.close{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: black;
+}
+.list-group-item{
+  margin: 5px 0px;
+}
